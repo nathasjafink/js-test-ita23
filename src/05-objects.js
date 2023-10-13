@@ -8,9 +8,14 @@
  * // person might be { name: 'John Doe', age: 30, city: 'New York' }
  */
 function createPersonObject() {
-    
+    return {
+        name: 'John Doe',
+        age: 30,
+        city: 'New York'
+    }
 }
-
+const person = createPersonObject();
+console.log(person);
 
 /**
  * This function returns the name of the given person object.
