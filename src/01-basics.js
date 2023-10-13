@@ -86,8 +86,9 @@ console.log(result3);
 
 function toUpperCaseWithSmiley(str) {
     let string = str.toUpperCase();
-    return string
+    return string;
 }
 const upper = toUpperCaseWithSmiley("hello");
 console.log(upper);
+
 
